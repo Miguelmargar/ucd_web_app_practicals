@@ -1,0 +1,35 @@
+h1 {
+    color: red;
+    letter-spacing: 2px;
+    text-decoration: none;
+    font-size: 50px; 
+    font-family: monospace;
+    font-weight: bold;
+}
+
+h2 {
+    color:blue;
+    letter-spacing: 5px;
+    text-decoration:underline;
+    font-size: 60px; 
+    font-family: monospace;
+    font-weight: bold;
+}
+
+h3 {
+    color: yellow;
+    letter-spacing: 2px;
+    text-decoration: overline;
+    font-size: 50px; 
+    font-family: serif;
+    font-weight: lighter;
+}
+
+em {
+    color: pink;
+    letter-spacing: 1px;
+    text-decoration:overline;
+    font-size: 25px; 
+    font-family: serif;
+    font-weight: bold;
+}

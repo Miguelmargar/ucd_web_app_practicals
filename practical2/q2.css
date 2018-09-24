@@ -1,0 +1,26 @@
+.headline {
+    color: red;
+    letter-spacing: 2px;
+    text-decoration: none;
+    font-size: 20px; 
+    font-family: arial;
+    font-weight: bold;
+}
+
+.name {
+    color: black;
+    letter-spacing: 2px;
+    text-decoration: none;
+    font-size: 20px; 
+    font-family: arial;
+    font-weight: bold;
+}
+
+.reward {
+    color: blue;
+    letter-spacing: 2px;
+    text-decoration: none;
+    font-size: 20px; 
+    font-family: arial;
+    font-weight: bold;
+}
