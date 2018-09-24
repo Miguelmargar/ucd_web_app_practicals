@@ -1,0 +1,30 @@
+.title {
+    color: red;
+    font-size: 25px;
+    text-decoration: overline;
+}
+
+.author {
+    color: blue;
+    font-size: 15px;
+}
+
+.publisher {
+    color: yellow;
+    font-size: 14px;
+}
+
+.date {
+    color: gray;
+    font-size: 13px;
+}
+
+.isbn {
+    color: black;
+    font-size: 12px;
+}
+
+.summary {
+    color: pink;
+    font-size: medium;
+}
