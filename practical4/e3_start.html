@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<img id="image" src="smiley.gif" onmousedown="changeImg()" onmouseup="original()" width="304" height="228">
+
+<script>
+document.getElementById("image").src = "pic_mountain.jpg";
+
+function changeImg() {
+    document.getElementById("image").src = "pic_mountain.jpg";
+    }
+    
+function original() {
+    document.getElementById("image").src = "smiley.gif"
+}
+
+
+
+
+// function changeImg() {
+//     var image = document.getElementById("image");
+   
+//     if (image.src.match("mountain")) {
+//         image.src = "smiley.gif";
+//         }
+//     else {
+//         image.src = "pic_mountain.jpg";
+//         }
+//     }
+
+</script>
+
+</body>
+</html>
