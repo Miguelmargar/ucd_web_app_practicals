@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <form id="num">
+        Enter your 1st number:
+        <input name="firstnum">
+        <br> Enter your 2nd number:
+        <input name="secondnum">
+        <br><br>
+        <button type="button" onclick="highest()">Submit!</button>
+    </form>
+
+
+    <script>
+        function highest() {
+            var num1 = document.getElementById("num").elements[0].value;
+            var num2 = document.getElementById("num").elements[1].value;
+
+            if (parseInt(num1) > parseInt(num2)) {
+                document.write("The biggest number is: " + num1);
+            }
+            else if (parseInt(num2) > parseInt(num1)) {
+                document.write("The biggest number is: " + num2);
+            }
+            else if (parseInt(num2) == parseInt(num1)) {
+                document.write("both numbers are the same: " + num1);
+            }
+            else {
+                document.write("Both have to be numbers not letters");
+            }
+        }
+    </script>
+
+</body>
+
+</html>
