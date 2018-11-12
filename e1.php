@@ -12,12 +12,16 @@
     $colours = array("white", "green", "red");
     
     foreach ($colours as $value) {
-        echo "$value ";
+        echo "$value  ";
     }
     
+    echo "<ul>";
     foreach ($colours as $value) {
         echo " <li>$value</li>";
     }
+    echo "</ul>";
+    
+    
     
     ?>
     
